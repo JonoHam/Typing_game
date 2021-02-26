@@ -1,0 +1,13 @@
+#ifndef ENTITYSTRUCTS_H
+#include <list>
+#include <string>
+#define ENTITYSTRUCTS_H
+
+struct entity {
+    int health;
+    int power;
+    int gold;
+    std::list<std::string> inventory;
+};
+
+#endif // ENTITYSTRUCTS_H
